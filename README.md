@@ -9,5 +9,5 @@
   * Inquirer.js
   
   ## Link to Video Demonstration
-  [Walkthrough Video](https://github.com/the)
+  [Walkthrough Video](https://watch.screencastify.com/v/e9NSABEMaAtbfy6jdEi0)
   
