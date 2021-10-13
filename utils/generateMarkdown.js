@@ -8,8 +8,8 @@ function renderLicenseBadge(license) {
     case 'Apache':
       return `This project is licensed under the [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) License.`
       break;
-    case 'Creative Commons':
-      return `This project is licensed under the [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) License.`
+    case 'Unlicense':
+      return `This project is licensed under the [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) License.`
       break;
     default:
       return 'This project has no license'
@@ -37,9 +37,10 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+  
   ## Description
   ${data.description}
-  ${renderLicenseBadge(data.license)}
 
   ## Table of Contents
   - [Installation](#installation)
