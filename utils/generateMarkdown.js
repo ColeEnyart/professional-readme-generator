@@ -129,7 +129,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  [GitHub Profile](https://github.com/${data.username})
+  Take a look at my [GitHub Profile](https://github.com/${data.username})
   
   If you have additional questions then you can reach me by email at: ${data.email}
 `;
